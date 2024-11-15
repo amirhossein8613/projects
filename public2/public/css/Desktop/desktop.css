@@ -1,0 +1,4 @@
+@import"./menu.css" only screen and (min-width:1024px);
+@import"./slider.css";
+@import"./product.css";
+

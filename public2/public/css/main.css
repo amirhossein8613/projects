@@ -1,0 +1,9 @@
+@import "./Mobile/mobile.css" only screen and (max-width:1024px); 
+@import "./Desktop/desktop.css" only screen and (min-width:1024px);
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}

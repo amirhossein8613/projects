@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.menu1 {
+  width: 100%;
+  background-color: black;
+  height: 40px;
+  nav {
+    width: 100%;
+    height: 100%;
+    ul {
+      width: inherit;
+      height: inherit;
+      list-style: none;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      li {
+        width: fit-content;
+      }
+      li:hover {
+        transition: 400ms;
+      }
+
+      a {
+        color: gray;
+        text-decoration: none;
+        cursor: pointer;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: bold;
+        transition: 400ms;
+      }
+    }
+  }
+}
+.ab:hover {
+  color: white;
+}
+
+input#close,
+input#show,
+label[for="show"],
+label[for="close"] {
+  display: none;
+}

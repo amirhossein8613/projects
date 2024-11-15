@@ -1,0 +1,8 @@
+@import "./over1000.css" only screen and (min-width: 1000px);
+@import "./under1000.css" only screen and (min-width: 576px) and
+  (max-width: 1000px);
+
+* {
+  margin: 0;
+  padding: 0;
+}
